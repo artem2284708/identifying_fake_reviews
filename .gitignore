@@ -1,0 +1,35 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.local
+frontend/.env
+frontend/.env.local
+
+# OS / editor
+.DS_Store
+**/.DS_Store
+.idea/
+.vscode/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Large local datasets (GitHub 100 MB limit)
+data/All_Beauty.jsonl
+data/All_Beauty.jsonl.gz
+
+# Hugging Face / model cache (downloaded on first backend start)
+.cache/
+backend/.cache/
+.huggingface/
